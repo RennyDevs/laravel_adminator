@@ -1,0 +1,29 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Template Adminator
+@import './../template/styles/index';
+
+.navbar-laravel {
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.sidebar-inner, .header.navbar {
+	color: white !important;
+	background: mediumvioletred;
+	height: 65px;
+}
+.sidebar-logo a .logo-text {
+    color: #12b7ef;
+}
+.header .header-container .nav-left > li > a, .header .header-container .nav-right > li > a {
+    color: #12b7ef;
+}
